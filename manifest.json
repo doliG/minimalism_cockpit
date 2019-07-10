@@ -1,6 +1,28 @@
-  {
-    "name": "Minimalism cockpit",
-    "version": "1.0",
-    "description": "Options to make the o'clock cockpit distraction free.",
-    "manifest_version": 2
+{
+  "name": "Minimalism cockpit",
+  "version": "1.0",
+  "description": "Options to make the o'clock cockpit distraction free.",
+  "manifest_version": 2,
+  "permissions": [
+    "declarativeContent",
+    "storage",
+    "activeTab"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/favicon-16x16.png",
+      "32": "images/favicon-32x32.png"
+    },
+    "icon": {
+      "16": "images/favicon-16x16.png",
+      "32": "images/favicon-32x32.png"
+    }
   }
+}

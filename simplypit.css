@@ -1,0 +1,36 @@
+/**
+  * Hiding header
+  */
+#header {
+	display: none;
+}
+#main {
+	padding-left: 0rem !important;
+}
+
+/**
+ * Hiding teacher and student cams
+ */
+#course-users {
+	display: none;
+}
+#course-chats {
+	height: 100% !important;
+}
+
+/**
+ * Reduce chat with to 30%
+ */
+#course-people {
+	width: 35% !important;
+}
+#course-content {
+	width: 65% !important;
+}
+
+/**
+ * Making teacher video larger
+ */
+#course-content {
+	padding: 1em .5em .5em .5em !important;
+}
